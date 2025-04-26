@@ -10,7 +10,6 @@
 		824A82DC2DBD883300756563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824A82D82DBD883300756563 /* Assets.xcassets */; };
 		824A82DD2DBD883300756563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A82D92DBD883300756563 /* ContentView.swift */; };
 		824A82DE2DBD883300756563 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A82DA2DBD883300756563 /* Main.swift */; };
-		824A82E22DBD892F00756563 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 824A82E12DBD892F00756563 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +17,7 @@
 		824A82D82DBD883300756563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824A82D92DBD883300756563 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		824A82DA2DBD883300756563 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		824A82E12DBD892F00756563 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		824A82E32DBD89CA00756563 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +34,7 @@
 		824A82C12DBD84E600756563 = {
 			isa = PBXGroup;
 			children = (
+				824A82E32DBD89CA00756563 /* README.md */,
 				824A82DB2DBD883300756563 /* swift-gems-notes */,
 				824A82CB2DBD84E600756563 /* Products */,
 			);
@@ -51,7 +51,6 @@
 		824A82DB2DBD883300756563 /* swift-gems-notes */ = {
 			isa = PBXGroup;
 			children = (
-				824A82E12DBD892F00756563 /* README.md */,
 				824A82D82DBD883300756563 /* Assets.xcassets */,
 				824A82D92DBD883300756563 /* ContentView.swift */,
 				824A82DA2DBD883300756563 /* Main.swift */,
@@ -120,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824A82E22DBD892F00756563 /* README.md in Resources */,
 				824A82DC2DBD883300756563 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

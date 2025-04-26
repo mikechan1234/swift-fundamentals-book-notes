@@ -1,4 +1,4 @@
-Topics based on the book Swift Gems by Natalia Panfernova
+Topics based on the book [Swift Gems](https://books.nilcoalescing.com/swift-gems) by Natalia Panfernova
 
 - @AutoClosure
 - rethrows
