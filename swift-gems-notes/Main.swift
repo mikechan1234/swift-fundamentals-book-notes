@@ -1,6 +1,6 @@
 //
-//  swift_fundamentals_learningsApp.swift
-//  swift-fundamentals-learnings
+//  Main.swift
+//  swift-gems-notes
 //
 //  Created by Michael Chan on 26/04/2025.
 //

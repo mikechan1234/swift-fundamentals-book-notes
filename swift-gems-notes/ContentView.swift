@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  swift-fundamentals-learnings
+//  swift-gems-notes
 //
 //  Created by Michael Chan on 26/04/2025.
 //

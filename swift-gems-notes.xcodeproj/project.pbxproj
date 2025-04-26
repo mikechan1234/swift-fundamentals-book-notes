@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		824A82CA2DBD84E600756563 /* swift-fundamentals-learnings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-fundamentals-learnings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		824A82DC2DBD883300756563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824A82D82DBD883300756563 /* Assets.xcassets */; };
+		824A82DD2DBD883300756563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A82D92DBD883300756563 /* ContentView.swift */; };
+		824A82DE2DBD883300756563 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A82DA2DBD883300756563 /* Main.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		824A82CC2DBD84E600756563 /* swift-fundamentals-learnings */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "swift-fundamentals-learnings";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		824A82CA2DBD84E600756563 /* swift-gems-notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-gems-notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824A82D82DBD883300756563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824A82D92DBD883300756563 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		824A82DA2DBD883300756563 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		824A82C72DBD84E600756563 /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		824A82C12DBD84E600756563 = {
 			isa = PBXGroup;
 			children = (
-				824A82CC2DBD84E600756563 /* swift-fundamentals-learnings */,
+				824A82DB2DBD883300756563 /* swift-gems-notes */,
 				824A82CB2DBD84E600756563 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,17 +41,27 @@
 		824A82CB2DBD84E600756563 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				824A82CA2DBD84E600756563 /* swift-fundamentals-learnings.app */,
+				824A82CA2DBD84E600756563 /* swift-gems-notes.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		824A82DB2DBD883300756563 /* swift-gems-notes */ = {
+			isa = PBXGroup;
+			children = (
+				824A82D82DBD883300756563 /* Assets.xcassets */,
+				824A82D92DBD883300756563 /* ContentView.swift */,
+				824A82DA2DBD883300756563 /* Main.swift */,
+			);
+			path = "swift-gems-notes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		824A82C92DBD84E600756563 /* swift-fundamentals-learnings */ = {
+		824A82C92DBD84E600756563 /* swift-gems-notes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 824A82D52DBD84E800756563 /* Build configuration list for PBXNativeTarget "swift-fundamentals-learnings" */;
+			buildConfigurationList = 824A82D52DBD84E800756563 /* Build configuration list for PBXNativeTarget "swift-gems-notes" */;
 			buildPhases = (
 				824A82C62DBD84E600756563 /* Sources */,
 				824A82C72DBD84E600756563 /* Frameworks */,
@@ -60,14 +71,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				824A82CC2DBD84E600756563 /* swift-fundamentals-learnings */,
-			);
-			name = "swift-fundamentals-learnings";
+			name = "swift-gems-notes";
 			packageProductDependencies = (
 			);
 			productName = "swift-fundamentals-learnings";
-			productReference = 824A82CA2DBD84E600756563 /* swift-fundamentals-learnings.app */;
+			productReference = 824A82CA2DBD84E600756563 /* swift-gems-notes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +93,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 824A82C52DBD84E600756563 /* Build configuration list for PBXProject "swift-fundamentals-learnings" */;
+			buildConfigurationList = 824A82C52DBD84E600756563 /* Build configuration list for PBXProject "swift-gems-notes" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				824A82C92DBD84E600756563 /* swift-fundamentals-learnings */,
+				824A82C92DBD84E600756563 /* swift-gems-notes */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824A82DC2DBD883300756563 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824A82DD2DBD883300756563 /* ContentView.swift in Sources */,
+				824A82DE2DBD883300756563 /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +277,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "michael.swift-fundamentals-learnings";
+				PRODUCT_BUNDLE_IDENTIFIER = "michael.swift-gems-notes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -294,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "michael.swift-fundamentals-learnings";
+				PRODUCT_BUNDLE_IDENTIFIER = "michael.swift-gems-notes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		824A82C52DBD84E600756563 /* Build configuration list for PBXProject "swift-fundamentals-learnings" */ = {
+		824A82C52DBD84E600756563 /* Build configuration list for PBXProject "swift-gems-notes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824A82D32DBD84E800756563 /* Debug */,
@@ -314,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		824A82D52DBD84E800756563 /* Build configuration list for PBXNativeTarget "swift-fundamentals-learnings" */ = {
+		824A82D52DBD84E800756563 /* Build configuration list for PBXNativeTarget "swift-gems-notes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824A82D62DBD84E800756563 /* Debug */,
